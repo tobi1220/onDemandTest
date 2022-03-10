@@ -1,5 +1,18 @@
 # OnDemandTest
 
+Reproduction repo for the `TypeError: Failed to fetch` issue with the on-demand store. Only occurs when running `build-storybook`.
+
+main.js:
+```js
+features: {
+  storyStoreV7: true,
+}
+```
+
+This repo is using Storybook 6.4.19 and Angular 13.2.4.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 
 ## Development server
